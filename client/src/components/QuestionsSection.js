@@ -7,7 +7,7 @@ const QuestionsSection = () => {
   const questionPageNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   //Assigns webpage to host variable
-  const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8040"
 
   //gets data from database on render
   const getQuestions = async () => {

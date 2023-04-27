@@ -16,7 +16,7 @@ function getPool() {
     host: "127.0.0.1",
     database: "shopping",
     password: "password",
-    port: 5432,
+    port: 7432,
   };
 
   // if DATABASE_URL is set as an environmental variable (from Render), use that

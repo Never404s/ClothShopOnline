@@ -13,7 +13,7 @@ function ColorPicker() {
   const [displayColor, setDisplayColor] = useState("White");
   const [sizes, setSizes] = useState([]);
 
-  const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8040"
   const colorList = [
     "White",
     "Black",

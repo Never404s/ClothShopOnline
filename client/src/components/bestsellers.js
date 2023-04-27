@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Carousel = () => {
   const [info, setInfo] = useState([]);
 
-  const host = "https://phill-in-the-blank.onrender.com";
+  const host = "http://localhost:8040"
 
   const getData = async () => {
     try {
@@ -16,7 +16,6 @@ const Carousel = () => {
         throw new Error(`Error fetching products. Status: ${response.status}`);
       }
       const data = await response.json();
-      console.table(data);
       setInfo(data);
     } catch (error) {
       console.error("Error fetching products:", error);
